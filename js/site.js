@@ -1,4 +1,8 @@
 $(document).ready(function() {
+  $('#magic-button').click(function(e) {
+    e.preventDefault();
+    console.log("This is going to be fun soon.")
+  })
 
   // Variables
   var $nav = $('.navbar'),
