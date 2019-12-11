@@ -1,12 +1,8 @@
-/* TODO 
-  delete the shit you ain't using.
-*/
-.container {
-  max-width: 800px; }
 .header {
   margin-top: 6rem;
   text-align: center; }
 .section-header {
+  margin-bottom: 4rem;
   text-transform: uppercase;
   font-size: 1.4rem;
   letter-spacing: .2rem;
@@ -15,7 +11,17 @@
   border-top: 1px solid #eee;
   padding: 4rem 0;
   margin-bottom: 0;}
+.navbar {
+  display: none; }
+.list-title {
+  margin-bottom: 1rem; 
+}
+ul {
+  list-style: circle inside;
+  color: #444;
+}
 
+/* <can_delete when all filler is gone> */
 .value-prop {
   margin-top: 1rem; }
 .value-props {
@@ -37,27 +43,6 @@
   margin-bottom: .75rem;
   font-weight: 600;
   letter-spacing: .1rem; }
-.docs-example .row,
-.docs-example.row,
-.docs-example form {
-  margin-bottom: 0; }
-.docs-example h1,
-.docs-example h2,
-.docs-example h3,
-.docs-example h4,
-.docs-example h5,
-.docs-example h6 {
-  margin-bottom: 1rem; }
-.heading-font-size {
-  font-size: 1.2rem;
-  color: #999;
-  letter-spacing: normal; }
-.code-example {
-  margin-top: 1.5rem;
-  margin-bottom: 0; }
-.code-example-body {
-  white-space: pre;
-  word-wrap: break-word }
 .example {
   position: relative; 
   margin-top: 4rem; }
@@ -85,8 +70,8 @@
   right: 5px;
   bottom: 5px;
   left: 5px; }
-.navbar {
-  display: none; }
+/* </can_delete when all filler is gone> */
+
 
 /* Larger than phone */
 @media (min-width: 550px) {
@@ -115,6 +100,13 @@
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+  /* Typography */
+  .section-header {
+    font-size: 1.9rem; }
+  p {
+    font-size: 1.7rem; }
+  ul {
+      margin-bottom: 3rem; }
   /* Navbar */
   .navbar + .page-section {
     border-top-width: 0; }
@@ -158,3 +150,4 @@
   /* Re-overiding the width 100% declaration to match size of % based container */
   .has-docked-nav .navbar > .container {
     width: 80%; }
+  }
