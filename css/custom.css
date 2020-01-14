@@ -1,6 +1,7 @@
 .header {
   margin-top: 6rem;
-  text-align: center; }
+  text-align: center; 
+}
 .section-header {
   margin-bottom: 4rem;
   text-transform: uppercase;
@@ -37,12 +38,19 @@ ul {
 img {
   margin-bottom: 2rem;
 }
+table {
+  margin-bottom: 3rem;
+}
+.question {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  /* letter-spacing: .2rem; */
+}
 .button.button-primary,
 .button.button-primary:hover,
 .button.button-primary:focus {
   background-color: #6CAFB5;
   border-color: #6CAFB5; }
-
 
 /* <can_delete when all filler is gone> */
 .value-prop {
@@ -96,40 +104,41 @@ img {
 /* </can_delete when all filler is gone> */
 
 
+
 /* Larger than phone */
 @media (min-width: 550px) {
   .header {
     margin-top: 18rem; }
+  .page-section {
+    padding: 6rem 0; }
   .value-props {
     margin-top: 9rem;
     margin-bottom: 7rem; }
   .value-img {
     margin-bottom: 1rem; }
-  .example-grid .column,
-  .example-grid .columns {
-    margin-bottom: 1.5rem; }
-  .page-section {
-    padding: 6rem 0; }
-  .example-send-yourself-copy {
-    float: right;
-    margin-top: 12px; }
-  .example-screenshot-wrapper {
-    position: absolute;
-    width: 48%;
-    height: 100%;
-    left: 0;
-    max-height: none; }
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
   /* Typography */
   .section-header {
-    font-size: 1.9rem; }
+    font-size: 2.25rem; }
   p {
     font-size: 1.7rem; }
   ul {
       margin-bottom: 3rem; }
+  .contact-methods {
+    margin-bottom: 2em;
+  }
+  .office-info {
+    margin-top: 2rem;
+  }
+.question {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  letter-spacing: .2rem;
+}
+
   /* Navbar */
   .navbar + .page-section {
     border-top-width: 0; }
