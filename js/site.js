@@ -1,10 +1,5 @@
 $(document).ready(function() {
-  $('#magic-button').click(function(e) {
-    e.preventDefault();
-    console.log("This is going to be fun soon.")
-  })
 
-  // Variables
   var $nav = $('.navbar'),
       $body = $('body'),
       $window = $(window),
@@ -23,12 +18,9 @@ $(document).ready(function() {
     var target = this.hash,
     $target = $(target);
     $('html, body').stop().animate({
-      'scrollTop': $target.offset().top - 40
+      'scrollTop': $target.offset().top - 50
     }, 300, 'swing', function () {
-      window.location.hash = '#'+target;
-      // this should add the #[location] to url,
-      // but it's overriding the -40 offset. hmm.
-      // TODO
+      window.location.hash = target+'#';
       $(document).on("scroll", onScroll);
     });
   }
