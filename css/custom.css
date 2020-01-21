@@ -1,6 +1,4 @@
 body {
-  /* background: rgb(244,243,237);
-  background: radial-gradient( rgba(244,243,237,1) 70%, rgba(153,80,49,1) 100%); */
   background-color: #f4f3ed;
   font-weight: 300;
   font-family: "Merriweather", serif; }
@@ -48,8 +46,7 @@ table {
   margin-bottom: 3rem; }
 .question {
   margin-bottom: 1rem;
-  font-size: 1.75rem;
-  /* letter-spacing: .2rem; */ }
+  font-size: 1.75rem; }
 .button.button-primary,
 .button.button-primary:hover,
 .button.button-primary:focus {
@@ -62,8 +59,7 @@ table {
 /* Larger than phone */
 @media (min-width: 550px) {
   body {
-    background: rgba(244,243,237,1);
-    /* background: linear-gradient(330deg, rgba(244,243,237,1) 90%, rgba(153,80,49,1) 100%); */ }
+    background: rgba(244,243,237,1); }
   .header {
     margin-bottom: 3rem;
     max-width: 100%;
@@ -75,7 +71,7 @@ table {
     background: linear-gradient(215deg, rgba(108,175,181,1) 33%, rgba(95,148,153,1) 100%); }
   h1 {
     color: #222;
-    text-shadow: 0em .1em .15em #94d6db;}
+    text-shadow: 0em .1em .15em #94d6db; }
   .page-section {
     padding: 6rem 0; }
   .button.button-primary,
@@ -85,14 +81,14 @@ table {
     border-color: #444; 
     color: #444;
     margin: 1rem 0 0 0;
-    box-shadow: 0.2em 0.2em 0.4em rgba(95,148,153,1);}
+    box-shadow: 0.2em 0.2em 0.4em rgba(95,148,153,1); }
   .button.button-primary:hover {
     display: inline-block;
     border-color: #444;
     color: #222;
     text-shadow: 0 0 0.4em rgba(95,148,153,1);
     box-shadow: 0.2em 0.2em 0.4em rgba(95,148,153,1);
-    margin: 1rem 0 0 0;}
+    margin: 1rem 0 0 0; }
 }
 
 /* Larger than tablet */
@@ -105,13 +101,13 @@ table {
   ul {
       margin-bottom: 3rem; }
   .contact-methods {
-    margin-bottom: 2em;}
+    margin-bottom: 2em; }
   .office-info {
-    margin-top: 2rem;}
+    margin-top: 2rem; }
   .question {
     margin-bottom: 1rem;
     font-size: 1.75rem;
-    letter-spacing: .2rem;}
+    letter-spacing: .2rem; }
   /* Navbar */
   .navbar + .page-section {
     border-top-width: 0; }
