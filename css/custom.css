@@ -27,18 +27,6 @@ body {
 ul {
   list-style: circle inside;
   color: #444; }
-.map-container {
-    overflow:hidden;
-    padding-bottom:75%; /* Assumes 12:9 aspect ratio (600x450)*/
-    position:relative;
-    height:0;
-    margin-bottom: 2rem; }
-.map-container iframe {
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute; }
 img {
   margin-bottom: 2rem;
  }
@@ -54,6 +42,14 @@ table {
   background-color: #6CAFB5;
   border-color: #fffef7; 
   margin: 2rem 0 5rem 0; }
+.surprising-link {
+  color: #6CAFB5; 
+  text-decoration: none; }
+.surprising-link-td {
+  text-align: center; }
+.surprising-subheading {
+  font-family: "Raleway", sans-serif;
+}
 
 
 /* Larger than phone */
@@ -102,8 +98,6 @@ table {
       margin-bottom: 3rem; }
   .contact-methods {
     margin-bottom: 2em; }
-  .office-info {
-    margin-top: 2rem; }
   .question {
     margin-bottom: 1rem;
     font-size: 1.75rem;
